@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopChangeToVideoExtended", "TopChangeToVideoExtended\TopChangeToVideoExtended.csproj", "{0FD70646-7D92-4C7C-83F7-DDD661104741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FD70646-7D92-4C7C-83F7-DDD661104741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD70646-7D92-4C7C-83F7-DDD661104741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD70646-7D92-4C7C-83F7-DDD661104741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD70646-7D92-4C7C-83F7-DDD661104741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {238C71DD-456A-45C5-B41B-DCA957F8DDFE}
+	EndGlobalSection
+EndGlobal
