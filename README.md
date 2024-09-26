@@ -5,26 +5,31 @@ A .NET C# project to run a pinned mean curvature flow simulation with topologica
 
 Upon running one is asked to enter the forcing value, $f_s$.
 
-### Program
+## Files
+### Program.cs
 * Contains parametrisation methods $(x(\theta),y(\theta))$ for the initial dislocation line.
-* Paramaters tMax - the total number of frames.
-* N - the number of points in the initial mesh.
-* Tau - the timestep.
+* Contains some pre chosen variables such as $\tau$. 
 * Runs Main method to start program.
 
-### MCF
+### MCF.cs
 * Contains methods that calculate the motion of a dislocation line under forced and pinned MCF.
 
-### Flow
+### Flow.cs
 * The class that describes a dislocation lines.
 * Contains methods for re-meshing the dislocation line.
 * Contains methods for calculating when intersections have occured.
 * Contains methods for splitting the dislocation line appropriately into two new lines.
 
-### fPoint
+### fPoint.cs
 * Struct that describes floating point representation of cartesian coordinates in the plane.
 * Contains methods for calculating properties of points in the plane as well as methods for manipulating them.
 
+### FlowReadWrite.cs
+* Contains methods for writing the simulation at each time step to frames.
+* Contains methods for converting the frames to video.
+* Stores forcing variable, $f_s$.
+
+## Prerequisites 
 ### NuGet Packages Used:
 * Accord
 * Accord.Video
